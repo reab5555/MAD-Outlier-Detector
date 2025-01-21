@@ -71,7 +71,7 @@ def process_file(file, index_column, values_column):
 
 def create_interface():
     with gr.Blocks(title="Outlier Detector") as iface:
-        gr.Markdown("# Outlier Detector using MAD method")
+        gr.Markdown("# Outlier Detector")
 
         with gr.Row():
             file_input = gr.File(label="Upload CSV file", file_types=[".csv"])
