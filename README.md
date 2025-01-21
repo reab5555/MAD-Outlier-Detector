@@ -30,23 +30,6 @@ This tool uses the MAD method, a robust statistical measure, to identify outlier
 6.  **Outlier Identification**: Data points with an absolute modified Z-score above a predefined *threshold* are considered outliers. The default threshold is 3.2 which is close to the critical value for p <.001 (as shown in the article).
 7. **Data Cleaning**: All rows that contain an outlier will be removed, and the cleaned dataset will be available for download.
 
-## Getting Started
-
-1.  **Clone the Repository**:
-    ```bash
-    git clone <repository_url>
-    cd mad-outlier-detector
-    ```
-2.  **Install Dependencies**:
-    ```bash
-    pip install pandas numpy gradio
-    ```
-3.  **Run the Application**:
-    ```bash
-    python app.py
-    ```
-4.  Open your web browser and navigate to the URL provided by the console.
-
 ## Usage
 
 1.  **Upload CSV**: Use the provided "Upload CSV file" component to upload your CSV data.
