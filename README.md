@@ -1,6 +1,6 @@
 # MAD Outlier Detector
 
-This is a Python tool built using `pandas`, `numpy`, and `gradio` that detects and removes outliers from a dataset using the Median Absolute Deviation (MAD) technique. It's designed to be user-friendly and provides a clear summary of the results.
+This is a tool that detects and removes outliers from a dataset using the Median Absolute Deviation (MAD) technique. It's designed to be user-friendly and provides a clear summary of the results.
 
 ## Features
 
