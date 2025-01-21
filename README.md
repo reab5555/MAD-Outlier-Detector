@@ -2,6 +2,9 @@
 
 This is a tool that detects and removes outliers from a dataset using the Median Absolute Deviation (MAD) technique. It's designed to be user-friendly and provides a clear summary of the results.
 
+Use the hosted demo:
+[DocuQA-Chat Demo](https://huggingface.co/spaces/reab5555/MAD-Outlier-Detector)
+
 ## Features
 
 -   **CSV File Upload**: Upload your dataset in CSV format.
